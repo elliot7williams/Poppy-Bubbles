@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E0B4AA962DF03C3A00AAC0FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0B4AA7D2DF03C3300AAC0FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0B4AA842DF03C3300AAC0FD;
+			remoteInfo = "Poppy Bubbles";
+		};
+		E0B4AAA02DF03C3B00AAC0FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0B4AA7D2DF03C3300AAC0FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0B4AA842DF03C3300AAC0FD;
+			remoteInfo = "Poppy Bubbles";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0B4AA852DF03C3300AAC0FD /* Poppy Bubbles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poppy Bubbles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B4AA952DF03C3A00AAC0FD /* Poppy BubblesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poppy BubblesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B4AA9F2DF03C3B00AAC0FD /* Poppy BubblesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poppy BubblesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E0B4AA872DF03C3300AAC0FD /* Poppy Bubbles */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Poppy Bubbles";
+			sourceTree = "<group>";
+		};
+		E0B4AA982DF03C3A00AAC0FD /* Poppy BubblesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Poppy BubblesTests";
+			sourceTree = "<group>";
+		};
+		E0B4AAA22DF03C3B00AAC0FD /* Poppy BubblesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Poppy BubblesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0B4AA822DF03C3300AAC0FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B4AA922DF03C3A00AAC0FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B4AA9C2DF03C3B00AAC0FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0B4AA7C2DF03C3300AAC0FD = {
+			isa = PBXGroup;
+			children = (
+				E0B4AA872DF03C3300AAC0FD /* Poppy Bubbles */,
+				E0B4AA982DF03C3A00AAC0FD /* Poppy BubblesTests */,
+				E0B4AAA22DF03C3B00AAC0FD /* Poppy BubblesUITests */,
+				E0B4AA862DF03C3300AAC0FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0B4AA862DF03C3300AAC0FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0B4AA852DF03C3300AAC0FD /* Poppy Bubbles.app */,
+				E0B4AA952DF03C3A00AAC0FD /* Poppy BubblesTests.xctest */,
+				E0B4AA9F2DF03C3B00AAC0FD /* Poppy BubblesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0B4AA842DF03C3300AAC0FD /* Poppy Bubbles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0B4AAA92DF03C3B00AAC0FD /* Build configuration list for PBXNativeTarget "Poppy Bubbles" */;
+			buildPhases = (
+				E0B4AA812DF03C3300AAC0FD /* Sources */,
+				E0B4AA822DF03C3300AAC0FD /* Frameworks */,
+				E0B4AA832DF03C3300AAC0FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E0B4AA872DF03C3300AAC0FD /* Poppy Bubbles */,
+			);
+			name = "Poppy Bubbles";
+			packageProductDependencies = (
+			);
+			productName = "Poppy Bubbles";
+			productReference = E0B4AA852DF03C3300AAC0FD /* Poppy Bubbles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0B4AA942DF03C3A00AAC0FD /* Poppy BubblesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0B4AAAC2DF03C3B00AAC0FD /* Build configuration list for PBXNativeTarget "Poppy BubblesTests" */;
+			buildPhases = (
+				E0B4AA912DF03C3A00AAC0FD /* Sources */,
+				E0B4AA922DF03C3A00AAC0FD /* Frameworks */,
+				E0B4AA932DF03C3A00AAC0FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0B4AA972DF03C3A00AAC0FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E0B4AA982DF03C3A00AAC0FD /* Poppy BubblesTests */,
+			);
+			name = "Poppy BubblesTests";
+			packageProductDependencies = (
+			);
+			productName = "Poppy BubblesTests";
+			productReference = E0B4AA952DF03C3A00AAC0FD /* Poppy BubblesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0B4AA9E2DF03C3B00AAC0FD /* Poppy BubblesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0B4AAAF2DF03C3B00AAC0FD /* Build configuration list for PBXNativeTarget "Poppy BubblesUITests" */;
+			buildPhases = (
+				E0B4AA9B2DF03C3B00AAC0FD /* Sources */,
+				E0B4AA9C2DF03C3B00AAC0FD /* Frameworks */,
+				E0B4AA9D2DF03C3B00AAC0FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0B4AAA12DF03C3B00AAC0FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E0B4AAA22DF03C3B00AAC0FD /* Poppy BubblesUITests */,
+			);
+			name = "Poppy BubblesUITests";
+			packageProductDependencies = (
+			);
+			productName = "Poppy BubblesUITests";
+			productReference = E0B4AA9F2DF03C3B00AAC0FD /* Poppy BubblesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0B4AA7D2DF03C3300AAC0FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					E0B4AA842DF03C3300AAC0FD = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					E0B4AA942DF03C3A00AAC0FD = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E0B4AA842DF03C3300AAC0FD;
+					};
+					E0B4AA9E2DF03C3B00AAC0FD = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E0B4AA842DF03C3300AAC0FD;
+					};
+				};
+			};
+			buildConfigurationList = E0B4AA802DF03C3300AAC0FD /* Build configuration list for PBXProject "Poppy Bubbles" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0B4AA7C2DF03C3300AAC0FD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E0B4AA862DF03C3300AAC0FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0B4AA842DF03C3300AAC0FD /* Poppy Bubbles */,
+				E0B4AA942DF03C3A00AAC0FD /* Poppy BubblesTests */,
+				E0B4AA9E2DF03C3B00AAC0FD /* Poppy BubblesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0B4AA832DF03C3300AAC0FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B4AA932DF03C3A00AAC0FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B4AA9D2DF03C3B00AAC0FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0B4AA812DF03C3300AAC0FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B4AA912DF03C3A00AAC0FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B4AA9B2DF03C3B00AAC0FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0B4AA972DF03C3A00AAC0FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0B4AA842DF03C3300AAC0FD /* Poppy Bubbles */;
+			targetProxy = E0B4AA962DF03C3A00AAC0FD /* PBXContainerItemProxy */;
+		};
+		E0B4AAA12DF03C3B00AAC0FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0B4AA842DF03C3300AAC0FD /* Poppy Bubbles */;
+			targetProxy = E0B4AAA02DF03C3B00AAC0FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E0B4AAA72DF03C3B00AAC0FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0B4AAA82DF03C3B00AAC0FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0B4AAAA2DF03C3B00AAC0FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Poppy Bubbles/Preview Content\"";
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliotwilliams.Poppy-Bubbles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0B4AAAB2DF03C3B00AAC0FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Poppy Bubbles/Preview Content\"";
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliotwilliams.Poppy-Bubbles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0B4AAAD2DF03C3B00AAC0FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliotwilliams.Poppy-BubblesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poppy Bubbles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Poppy Bubbles";
+			};
+			name = Debug;
+		};
+		E0B4AAAE2DF03C3B00AAC0FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliotwilliams.Poppy-BubblesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poppy Bubbles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Poppy Bubbles";
+			};
+			name = Release;
+		};
+		E0B4AAB02DF03C3B00AAC0FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliotwilliams.Poppy-BubblesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Poppy Bubbles";
+			};
+			name = Debug;
+		};
+		E0B4AAB12DF03C3B00AAC0FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliotwilliams.Poppy-BubblesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Poppy Bubbles";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0B4AA802DF03C3300AAC0FD /* Build configuration list for PBXProject "Poppy Bubbles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0B4AAA72DF03C3B00AAC0FD /* Debug */,
+				E0B4AAA82DF03C3B00AAC0FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0B4AAA92DF03C3B00AAC0FD /* Build configuration list for PBXNativeTarget "Poppy Bubbles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0B4AAAA2DF03C3B00AAC0FD /* Debug */,
+				E0B4AAAB2DF03C3B00AAC0FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0B4AAAC2DF03C3B00AAC0FD /* Build configuration list for PBXNativeTarget "Poppy BubblesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0B4AAAD2DF03C3B00AAC0FD /* Debug */,
+				E0B4AAAE2DF03C3B00AAC0FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0B4AAAF2DF03C3B00AAC0FD /* Build configuration list for PBXNativeTarget "Poppy BubblesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0B4AAB02DF03C3B00AAC0FD /* Debug */,
+				E0B4AAB12DF03C3B00AAC0FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0B4AA7D2DF03C3300AAC0FD /* Project object */;
+}
